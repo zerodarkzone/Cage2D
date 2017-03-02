@@ -6,6 +6,8 @@
 *.user
 *.sln.docstates
 
+*.wav
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -15,6 +17,41 @@ build/
 bld/
 [Bb]in/
 [Oo]bj/
+
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+Debug_include_Cage2d_stdafx_h_gch
+Release_include_Cage2d_stdafx_h_gch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+
 
 # Roslyn cache directories
 *.ide/
