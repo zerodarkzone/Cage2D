@@ -163,7 +163,6 @@
     <ClCompile Include="Src\ExternInput.cpp" />
     <ClCompile Include="Src\Menu.cpp" />
     <ClCompile Include="Src\MenuItem.cpp" />
-    <ClCompile Include="Src\Point.cpp" />
     <ClCompile Include="Src\Scene.cpp" />
     <ClCompile Include="Src\ServiceLocator.cpp" />
     <ClCompile Include="Src\SoundFileCache.cpp" />
@@ -178,7 +177,6 @@
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Cage2d/stdafx.h</PrecompiledHeaderFile>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Cage2d/stdafx.h</PrecompiledHeaderFile>
     </ClCompile>
-    <ClCompile Include="Src\Vec2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Cage2d.hpp" />
@@ -201,7 +199,6 @@
     <ClInclude Include="include\Cage2d\Manager.hpp" />
     <ClInclude Include="include\Cage2d\Menu.hpp" />
     <ClInclude Include="include\Cage2d\MenuItem.hpp" />
-    <ClInclude Include="include\Cage2d\Point.hpp" />
     <ClInclude Include="include\Cage2d\Properties.hpp" />
     <ClInclude Include="include\Cage2d\Property.hpp" />
     <ClInclude Include="include\Cage2d\Scene.hpp" />
@@ -214,7 +211,6 @@
     <ClInclude Include="include\Cage2d\targetver.h" />
     <ClInclude Include="include\Cage2d\TiledMap.hpp" />
     <ClInclude Include="include\Cage2d\TiledMapImp.hxx" />
-    <ClInclude Include="include\Cage2d\Vec2.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
