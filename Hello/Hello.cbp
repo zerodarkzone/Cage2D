@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Hello" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Hello" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wnon-virtual-dtor" />
+					<Add option="-Wredundant-decls" />
+					<Add option="-Winline" />
+					<Add option="-Wunreachable-code" />
+					<Add option="-Wmissing-include-dirs" />
+					<Add option="-Wmain" />
+					<Add option="-pedantic-errors" />
+					<Add option="-pedantic" />
+					<Add option="-Wfatal-errors" />
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-std=c++14" />
+					<Add option="-m64" />
+					<Add option="-g" />
+					<Add option="-Werror" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-m64" />
+					<Add option="-lgmon" />
+					<Add option="-pthread" />
+					<Add library="libCage2d-debug.a" />
+					<Add library="libtinyxml2.a" />
+					<Add library="libtmxparser.dll.a" />
+					<Add library="liballegro_monolith-debug.dll.a" />
+					<Add directory="$(Cage2dPath)/Cage2d/bin/Debug" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Hello" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-std=c++14" />
+					<Add option="-m64" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-m64" />
+					<Add library="libCage2d.a" />
+					<Add library="libtinyxml2.a" />
+					<Add library="libtmxparser.dll.a" />
+					<Add library="liballegro_monolith.dll.a" />
+					<Add directory="$(Cage2dPath)/Cage2d/bin/Release" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++14" />
+			<Add option="-fexceptions" />
+			<Add option="-isystem ..\Dependencies\AllegroC++\include" />
+			<Add directory="Classes/" />
+			<Add directory="$(Cage2dPath)/Dependencies/tmxparser/include" />
+			<Add directory="$(Cage2dPath)/Dependencies/Containers" />
+			<Add directory="$(Cage2dPath)/Cage2d" />
+			<Add directory="$(Cage2dPath)/Cage2d/include" />
+			<Add directory="$(Cage2dPath)/Dependencies/Smart_pointer" />
+			<Add directory="$(Cage2dPath)/Dependencies/allegro/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="$(Cage2dPath)/Dependencies/tmxparser/lib" />
+			<Add directory="$(Cage2dPath)/Dependencies/allegro/lib" />
+			<Add directory="$(Cage2dPath)/Dependencies/tinyxml2/lib" />
+		</Linker>
+		<Unit filename="Classes/AppDelegate.cpp" />
+		<Unit filename="Classes/AppDelegate.hpp" />
+		<Unit filename="Classes/HelloScene.cpp" />
+		<Unit filename="Classes/HelloScene.hpp" />
+		<Unit filename="Main.cpp" />
+		<Extensions>
+			<code_completion>
+				<search_path add="..\Dependencies\AllegroC++\include\alx" />
+				<search_path add="..\Hello" />
+				<search_path add="..\Dependencies\Containers\co\edu\unal\list" />
+				<search_path add="..\Dependencies\Smart_pointer" />
+			</code_completion>
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

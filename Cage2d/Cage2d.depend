@@ -1,0 +1,661 @@
+# depslib dependency file v1.0
+1488050467 source:d:\cage2d\cage2d\include\cage2d\stdafx.h
+	"targetver.h"
+	<cmath>
+	<iostream>
+	<sstream>
+	<map>
+	<list>
+	<vector>
+	<stack>
+	<queue>
+	<cassert>
+	<functional>
+	<thread>
+	<mutex>
+	<condition_variable>
+	<atomic>
+	<alx.hpp>
+	"Vec2.hpp"
+	"Property.hpp"
+	"Properties.hpp"
+	"ImageDraw.hpp"
+	"Sprite.hpp"
+	"AnimatedSprite.hpp"
+	"Animation.hpp"
+	"SpriteSheet.hpp"
+	"Macros.hpp"
+	"ServiceLocator.hpp"
+	"co/edu/unal/list/JList.hpp"
+	"Entity.hpp"
+	"EntityManager.hpp"
+	"CollisionManager.hpp"
+
+1428973046 d:\cage2d\cage2d\include\cage2d\targetver.h
+	<SDKDDKVer.h>
+
+1460565783 d:\cage2d\dependencies\eastl\include\eastl\list.h
+	<EASTL/internal/config.h>
+	<EASTL/allocator.h>
+	<EASTL/type_traits.h>
+	<EASTL/iterator.h>
+	<EASTL/algorithm.h>
+	<EASTL/initializer_list.h>
+	<new>
+	<stddef.h>
+	<new>
+	<stddef.h>
+
+1460432259 d:\cage2d\dependencies\eastl\include\eastl\internal\config.h
+	<EABase/eabase.h>
+	<EABase/eahave.h>
+	<malloc.h>
+	<signal.h>
+	<unistd.h>
+	<yvals.h>
+	<type_traits>
+	<cstddef>
+	<type_traits>
+	<type_traits>
+	<tr1/type_traits>
+	<yvals.h>
+	<stddef.h>
+
+1460513862 d:\cage2d\dependencies\eastl\include\eabase\eabase.h
+	<EABase/config/eacompiler.h>
+	<EABase/config/eacompilertraits.h>
+	<EABase/config/eaplatform.h>
+	<EABase/version.h>
+	<stddef.h>
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<math.h>
+	<float.h>
+	<sys/types.h>
+	<wchar.h>
+
+1460432260 d:\cage2d\dependencies\eastl\include\eabase\config\eacompiler.h
+	<EABase/config/eaplatform.h>
+	<cstddef>
+
+1460432260 d:\cage2d\dependencies\eastl\include\eabase\config\eaplatform.h
+	<TargetConditionals.h>
+	<winapifamily.h>
+	<winapifamily.h>
+
+1460565710 d:\cage2d\dependencies\eastl\include\eabase\config\eacompilertraits.h
+	<EABase/config/eaplatform.h>
+	<EABase/config/eacompiler.h>
+
+1460432260 d:\cage2d\dependencies\eastl\include\eabase\version.h
+
+1460432260 d:\cage2d\dependencies\eastl\include\eabase\eahave.h
+	<EABase/eabase.h>
+	<cstddef>
+	<EABase/eahave.h>
+
+1460566036 d:\cage2d\dependencies\eastl\include\eastl\allocator.h
+	<EASTL/internal/config.h>
+	<EABase/nullptr.h>
+	<stddef.h>
+	<new>
+	<new>
+
+1460432260 d:\cage2d\dependencies\eastl\include\eabase\nullptr.h
+	<EABase/eabase.h>
+	<EABase/eahave.h>
+
+1460432259 d:\cage2d\dependencies\eastl\include\eastl\type_traits.h
+	<EASTL/internal/config.h>
+	<stddef.h>
+	<EASTL/internal/type_fundamental.h>
+	<EASTL/internal/type_transformations.h>
+	<EASTL/internal/type_properties.h>
+	<EASTL/internal/type_compound.h>
+	<EASTL/internal/type_pod.h>
+
+1460432260 d:\cage2d\dependencies\eastl\include\eastl\internal\type_fundamental.h
+	<EABase/eabase.h>
+	<EABase/nullptr.h>
+
+1460432260 d:\cage2d\dependencies\eastl\include\eastl\internal\type_transformations.h
+	<EABase/eabase.h>
+	<limits.h>
+
+1460432260 d:\cage2d\dependencies\eastl\include\eastl\internal\type_properties.h
+	<EABase/eabase.h>
+	<limits.h>
+
+1460432260 d:\cage2d\dependencies\eastl\include\eastl\internal\type_compound.h
+	<EABase/eabase.h>
+
+1460432260 d:\cage2d\dependencies\eastl\include\eastl\internal\type_pod.h
+	<EABase/eabase.h>
+	<limits.h>
+	<EASTL/type_traits.h>
+
+1460432259 d:\cage2d\dependencies\eastl\include\eastl\iterator.h
+	<EASTL/internal/config.h>
+	<EASTL/internal/move_help.h>
+	<EASTL/initializer_list.h>
+	<stddef.h>
+	<iterator>
+	<iterator>
+
+1460432260 d:\cage2d\dependencies\eastl\include\eastl\internal\move_help.h
+	<EABase/eabase.h>
+	<EASTL/internal/config.h>
+	<EASTL/type_traits.h>
+
+1460432259 d:\cage2d\dependencies\eastl\include\eastl\initializer_list.h
+	<EASTL/internal/config.h>
+	<EABase/eahave.h>
+	<initializer_list>
+
+1460432258 d:\cage2d\dependencies\eastl\include\eastl\algorithm.h
+	<EASTL/internal/config.h>
+	<EASTL/type_traits.h>
+	<EASTL/internal/move_help.h>
+	<EASTL/internal/copy_help.h>
+	<EASTL/internal/fill_help.h>
+	<EASTL/initializer_list.h>
+	<EASTL/iterator.h>
+	<EASTL/functional.h>
+	<EASTL/utility.h>
+	<EASTL/internal/generic_iterator.h>
+	<EASTL/random.h>
+	<intrin.h>
+	<stddef.h>
+	<string.h>
+
+1460432259 d:\cage2d\dependencies\eastl\include\eastl\internal\copy_help.h
+	<EASTL/internal/config.h>
+	<EASTL/type_traits.h>
+	<EASTL/iterator.h>
+	<string.h>
+
+1460432259 d:\cage2d\dependencies\eastl\include\eastl\internal\fill_help.h
+	<EASTL/internal/config.h>
+
+1460432259 d:\cage2d\dependencies\eastl\include\eastl\functional.h
+	<EABase/eabase.h>
+	<EASTL/internal/config.h>
+	<EASTL/internal/allocator_traits_fwd_decls.h>
+	<EASTL/type_traits.h>
+	<EASTL/internal/functional_base.h>
+	<EASTL/internal/function.h>
+
+1460432259 d:\cage2d\dependencies\eastl\include\eastl\internal\allocator_traits_fwd_decls.h
+	<EABase/eabase.h>
+	<EASTL/internal/config.h>
+	<EASTL/numeric_limits.h>
+
+1460432259 d:\cage2d\dependencies\eastl\include\eastl\numeric_limits.h
+	<EASTL/internal/config.h>
+	<EASTL/type_traits.h>
+	<limits.h>
+	<float.h>
+	<ymath.h>
+
+1460432259 d:\cage2d\dependencies\eastl\include\eastl\internal\functional_base.h
+	<EASTL/internal/config.h>
+
+1460432259 d:\cage2d\dependencies\eastl\include\eastl\internal\function.h
+	<EABase/eabase.h>
+	<EABase/nullptr.h>
+	<EABase/config/eacompilertraits.h>
+	<EASTL/type_traits.h>
+	<EASTL/utility.h>
+	<EASTL/allocator.h>
+	<EASTL/internal/move_help.h>
+	<EASTL/internal/mem_fn.h>
+	<EASTL/internal/allocator_traits_fwd_decls.h>
+
+1460432259 d:\cage2d\dependencies\eastl\include\eastl\utility.h
+	<EASTL/internal/config.h>
+	<EASTL/type_traits.h>
+	<EASTL/iterator.h>
+	<EASTL/functional.h>
+	<EASTL/internal/move_help.h>
+	<EABase/eahave.h>
+	<EASTL/internal/integer_sequence.h>
+	<EASTL/internal/tuple_fwd_decls.h>
+
+1460432259 d:\cage2d\dependencies\eastl\include\eastl\internal\integer_sequence.h
+	<EABase/config/eacompiler.h>
+	<EASTL/internal/config.h>
+	<EASTL/type_traits.h>
+
+1460432260 d:\cage2d\dependencies\eastl\include\eastl\internal\tuple_fwd_decls.h
+	<EASTL/internal/config.h>
+
+1460432260 d:\cage2d\dependencies\eastl\include\eastl\internal\mem_fn.h
+
+1460432259 d:\cage2d\dependencies\eastl\include\eastl\internal\generic_iterator.h
+	<EABase/eabase.h>
+	<EASTL/internal/config.h>
+	<EASTL/iterator.h>
+	<EASTL/type_traits.h>
+
+1460432259 d:\cage2d\dependencies\eastl\include\eastl\random.h
+	<EASTL/internal/config.h>
+	<EASTL/numeric_limits.h>
+
+1461293841 d:\cage2d\cage2d\include\cage2d\vec2.hpp
+	"Property.hpp"
+	"Point.hpp"
+
+1487978853 d:\cage2d\cage2d\include\cage2d\property.hpp
+	<functional>
+
+1461293841 d:\cage2d\cage2d\include\cage2d\point.hpp
+
+1461297527 d:\cage2d\cage2d\include\cage2d\imagedraw.hpp
+	<istream>
+	<iostream>
+
+1487975221 d:\cage2d\cage2d\include\cage2d\sprite.hpp
+	<exception>
+
+1461039817 d:\cage2d\dependencies\containers\co\edu\unal\list\exception
+
+1487975415 d:\cage2d\cage2d\include\cage2d\animatedsprite.hpp
+
+1461297525 d:\cage2d\cage2d\include\cage2d\animation.hpp
+	"SpriteSheet.hpp"
+
+1461293841 d:\cage2d\cage2d\include\cage2d\spritesheet.hpp
+
+1488052239 d:\cage2d\cage2d\include\cage2d\macros.hpp
+	"cntd_ptr.hpp"
+	"Game.hpp"
+	"BitmapFileCache.hpp"
+	<malloc.h>
+	<cctype>
+	<iomanip>
+	<type_traits>
+	<cstdint>
+
+1455140740 d:\cage2d\dependencies\smart_pointer\cntd_ptr.hpp
+
+1488051696 d:\cage2d\cage2d\include\cage2d\game.hpp
+	"KeyCodes.hpp"
+	"ExternInput.hpp"
+
+1487971360 d:\cage2d\cage2d\include\cage2d\externinput.hpp
+
+1461297526 d:\cage2d\cage2d\include\cage2d\bitmapfilecache.hpp
+
+1458660229 d:\cage2d\cage2d\include\cage2d\servicelocator.hpp
+	"IAudioProvider.hpp"
+
+1461294012 d:\cage2d\cage2d\include\cage2d\iaudioprovider.hpp
+	<string>
+
+1433480580 d:\cage2d\dependencies\containers\co\edu\unal\list\jlist.hpp
+	"s_pointer/sm_ptr.hpp"
+	"ArrayLinearList.hpp"
+	"ArrayLinearListImproved.hpp"
+	"RandomIterationList.hpp"
+	"ShuffleList.hpp"
+	"CircleHeaderChaindedList.hpp"
+	"DoubleChainedList.hpp"
+
+1411259527 d:\cage2d\dependencies\containers\co\edu\unal\list\s_pointer\sm_ptr.hpp
+
+1461039715 d:\cage2d\dependencies\containers\co\edu\unal\list\arraylinearlist.hpp
+	<iostream>
+	"LinearList.hpp"
+	"jcomparator\JComparator.hpp"
+
+1461039772 d:\cage2d\dependencies\containers\co\edu\unal\list\linearlist.hpp
+	<iostream>
+	<cstdint>
+	<stdexcept>
+	<cstdlib>
+	<type_traits>
+	"jiterator\JIterator.hpp"
+	"Exception\Exception.hpp"
+
+1461038962 d:\cage2d\dependencies\containers\co\edu\unal\list\jiterator\jiterator.hpp
+
+1461106493 d:\cage2d\dependencies\containers\co\edu\unal\list\exception\exception.hpp
+	<exception>
+
+1461268313 d:\cage2d\dependencies\containers\co\edu\unal\list\jcomparator\jcomparator.hpp
+	"..\..\queue\MaxHeap.hpp"
+
+1461268497 d:\cage2d\dependencies\containers\co\edu\unal\queue\maxheap.hpp
+	"MaxPriorityQueue.hpp"
+	<vector>
+	"../comp/Comp.hpp"
+	"../list/LinearList.hpp"
+
+1411007609 d:\cage2d\dependencies\containers\co\edu\unal\queue\maxpriorityqueue.hpp
+
+1426468162 d:\cage2d\dependencies\containers\co\edu\unal\comp\comp.hpp
+
+1456812551 d:\cage2d\dependencies\containers\co\edu\unal\list\arraylinearlistimproved.hpp
+	<iostream>
+	<string>
+	"ArrayLinearList.hpp"
+	"LinearListImproved.hpp"
+	<fstream>
+
+1415589505 d:\cage2d\dependencies\containers\co\edu\unal\list\linearlistimproved.hpp
+	<string>
+
+1461039619 d:\cage2d\dependencies\containers\co\edu\unal\list\randomiterationlist.hpp
+	<cstdlib>
+	<fstream>
+	<iostream>
+	<ctime>
+	"ArrayLinearListImproved.hpp"
+
+1427759779 d:\cage2d\dependencies\containers\co\edu\unal\list\shufflelist.hpp
+	<cstdlib>
+	<ctime>
+	"ArrayLinearListImproved.hpp"
+
+1461039488 d:\cage2d\dependencies\containers\co\edu\unal\list\circleheaderchaindedlist.hpp
+	<cstdlib>
+	<ctime>
+	<fstream>
+	<iostream>
+	<string>
+	"LinearList.hpp"
+	"ChainNode.h"
+
+1413128630 d:\cage2d\dependencies\containers\co\edu\unal\list\chainnode.h
+	<iostream>
+
+1461039432 d:\cage2d\dependencies\containers\co\edu\unal\list\doublechainedlist.hpp
+	<cstdlib>
+	<ctime>
+	<fstream>
+	<iostream>
+	<string>
+	"LinearList.hpp"
+	"ChainNode.h"
+
+1487987895 d:\cage2d\cage2d\include\cage2d\entity.hpp
+	"Body.hpp"
+
+1487986022 d:\cage2d\cage2d\include\cage2d\body.hpp
+
+1461293842 d:\cage2d\cage2d\include\cage2d\entitymanager.hpp
+	"Cage2d/Manager.hpp"
+
+1461297527 d:\cage2d\cage2d\include\cage2d\manager.hpp
+
+1472755362 d:\cage2d\cage2d\include\cage2d\collisionmanager.hpp
+	"Cage2d/Manager.hpp"
+	"co/edu/unal/list/JList.hpp"
+
+1461269844 source:d:\cage2d\cage2d\src\stdafx.cpp
+	"Cage2d/stdafx.h"
+
+1488050467 d:\cage2d\cage2d\include\cage2d\stdafx.h
+	"targetver.h"
+	<cmath>
+	<iostream>
+	<sstream>
+	<map>
+	<list>
+	<vector>
+	<stack>
+	<queue>
+	<cassert>
+	<functional>
+	<thread>
+	<mutex>
+	<condition_variable>
+	<atomic>
+	<alx.hpp>
+	"Vec2.hpp"
+	"Property.hpp"
+	"Properties.hpp"
+	"ImageDraw.hpp"
+	"Sprite.hpp"
+	"AnimatedSprite.hpp"
+	"Animation.hpp"
+	"SpriteSheet.hpp"
+	"Macros.hpp"
+	"ServiceLocator.hpp"
+	"co/edu/unal/list/JList.hpp"
+	"Entity.hpp"
+	"EntityManager.hpp"
+	"CollisionManager.hpp"
+
+1461297521 source:d:\cage2d\cage2d\src\alsoundprovider.cpp
+	"Cage2d/stdafx.h"
+	"Cage2d/ALSoundProvider.hpp"
+	"Cage2d/SoundFileCache.hpp"
+
+1461297525 d:\cage2d\cage2d\include\cage2d\alsoundprovider.hpp
+	"IAudioProvider.hpp"
+	"SoundFileCache.hpp"
+
+1461297529 d:\cage2d\cage2d\include\cage2d\soundfilecache.hpp
+
+1461297521 source:d:\cage2d\cage2d\src\animatedsprite.cpp
+	"Cage2d/stdafx.h"
+	"Cage2d/AnimatedSprite.hpp"
+
+1461297521 source:d:\cage2d\cage2d\src\animation.cpp
+	"Cage2d/stdafx.h"
+	"Cage2d/Animation.hpp"
+
+1461297521 source:d:\cage2d\cage2d\src\application.cpp
+	"Cage2d/stdafx.h"
+	"Cage2d/Application.hpp"
+
+1461297525 d:\cage2d\cage2d\include\cage2d\application.hpp
+
+1461297522 source:d:\cage2d\cage2d\src\bitmapfilecache.cpp
+	"Cage2d/stdafx.h"
+	"Cage2d/BitmapFileCache.hpp"
+
+1487989361 source:d:\cage2d\cage2d\src\body.cpp
+	"Cage2d/stdafx.h"
+	"Cage2d/Body.hpp"
+	"Cage2d/Entity.hpp"
+
+1488351769 source:d:\cage2d\cage2d\src\camera.cpp
+	"Cage2d/stdafx.h"
+	"Cage2d/Camera.hpp"
+
+1461297526 d:\cage2d\cage2d\include\cage2d\camera.hpp
+	<typeinfo>
+
+1488355028 source:d:\cage2d\cage2d\src\collisionmanager.cpp
+	"Cage2d/stdafx.h"
+	"Cage2d/Body.hpp"
+	"Cage2d/CollisionManager.hpp"
+
+1488355155 source:d:\cage2d\cage2d\src\entity.cpp
+	"Cage2d/stdafx.h"
+	"Cage2d/Entity.hpp"
+	"Cage2d/Camera.hpp"
+
+1461297522 source:d:\cage2d\cage2d\src\entitymanager.cpp
+	"Cage2d/stdafx.h"
+	"Cage2d/Entity.hpp"
+	"Cage2d/EntityManager.hpp"
+
+1487971516 source:d:\cage2d\cage2d\src\externinput.cpp
+	"Cage2d/stdafx.h"
+	"Cage2d/ExternInput.hpp"
+
+1488051707 source:d:\cage2d\cage2d\src\game.cpp
+	"Cage2d/stdafx.h"
+	"Cage2d/Game.hpp"
+	"Cage2d/Scene.hpp"
+	"Cage2d/SplashScreen.hpp"
+	"Cage2d/Menu.hpp"
+	"Cage2d/MenuItem.hpp"
+	"Cage2d/Camera.hpp"
+	"Cage2d/ALSoundProvider.hpp"
+
+1488356966 d:\cage2d\cage2d\include\cage2d\scene.hpp
+
+1461293841 d:\cage2d\cage2d\include\cage2d\splashscreen.hpp
+
+1461293841 d:\cage2d\cage2d\include\cage2d\menu.hpp
+
+1461293841 d:\cage2d\cage2d\include\cage2d\menuitem.hpp
+
+1461297523 source:d:\cage2d\cage2d\src\menu.cpp
+	"Cage2d/stdafx.h"
+	"Cage2d/Menu.hpp"
+	"Cage2d/MenuItem.hpp"
+
+1461297523 source:d:\cage2d\cage2d\src\menuitem.cpp
+	"Cage2d/stdafx.h"
+	"Cage2d/MenuItem.hpp"
+
+1461297523 source:d:\cage2d\cage2d\src\point.cpp
+	"Cage2d/stdafx.h"
+	"Cage2d/Point.hpp"
+
+1487969148 source:d:\cage2d\cage2d\src\scene.cpp
+	"Cage2d/stdafx.h"
+	"Cage2d/Scene.hpp"
+	"Cage2d/TiledMap.hpp"
+	"Cage2d/Camera.hpp"
+	<mutex>
+
+1461297530 d:\cage2d\cage2d\include\cage2d\tiledmap.hpp
+	"Entity.hpp"
+	"SpriteSheet.hpp"
+	<tmxparser/Tmx.h>
+	"TiledMapImp.hxx"
+
+1423501798 d:\cage2d\dependencies\tmxparser\include\tmxparser\tmx.h
+	"TmxMap.h"
+	"TmxTileset.h"
+	"TmxTerrainArray.h"
+	"TmxTerrain.h"
+	"TmxTile.h"
+	"TmxTileOffset.h"
+	"TmxImage.h"
+	"TmxLayer.h"
+	"TmxTileLayer.h"
+	"TmxObject.h"
+	"TmxObjectGroup.h"
+	"TmxEllipse.h"
+	"TmxPolygon.h"
+	"TmxPolyline.h"
+	"TmxPropertySet.h"
+	"TmxUtil.h"
+	"TmxImageLayer.h"
+
+1458145593 d:\cage2d\dependencies\tmxparser\include\tmxparser\tmxmap.h
+	<vector>
+	<string>
+	"TmxPropertySet.h"
+
+1458145517 d:\cage2d\dependencies\tmxparser\include\tmxparser\tmxpropertyset.h
+	<map>
+	<string>
+
+1423501798 d:\cage2d\dependencies\tmxparser\include\tmxparser\tmxtileset.h
+	<string>
+	<vector>
+	"TmxPropertySet.h"
+
+1423501798 d:\cage2d\dependencies\tmxparser\include\tmxparser\tmxterrainarray.h
+	<map>
+	<string>
+	<vector>
+
+1423501798 d:\cage2d\dependencies\tmxparser\include\tmxparser\tmxterrain.h
+	<vector>
+	"TmxPropertySet.h"
+
+1458145593 d:\cage2d\dependencies\tmxparser\include\tmxparser\tmxtile.h
+	<vector>
+	"TmxPropertySet.h"
+
+1423501798 d:\cage2d\dependencies\tmxparser\include\tmxparser\tmxtileoffset.h
+	<string>
+
+1423501798 d:\cage2d\dependencies\tmxparser\include\tmxparser\tmximage.h
+	<string>
+
+1423501798 d:\cage2d\dependencies\tmxparser\include\tmxparser\tmxlayer.h
+	<string>
+	"TmxPropertySet.h"
+	"TmxMapTile.h"
+
+1423501798 d:\cage2d\dependencies\tmxparser\include\tmxparser\tmxmaptile.h
+
+1423501798 d:\cage2d\dependencies\tmxparser\include\tmxparser\tmxtilelayer.h
+	<string>
+	"TmxPropertySet.h"
+	"TmxMapTile.h"
+
+1423501798 d:\cage2d\dependencies\tmxparser\include\tmxparser\tmxobject.h
+	<string>
+	"TmxPropertySet.h"
+
+1458145593 d:\cage2d\dependencies\tmxparser\include\tmxparser\tmxobjectgroup.h
+	<string>
+	<vector>
+	"TmxLayer.h"
+	"TmxPropertySet.h"
+
+1423501798 d:\cage2d\dependencies\tmxparser\include\tmxparser\tmxellipse.h
+	<vector>
+	"TmxPoint.h"
+
+1423501798 d:\cage2d\dependencies\tmxparser\include\tmxparser\tmxpoint.h
+
+1458145593 d:\cage2d\dependencies\tmxparser\include\tmxparser\tmxpolygon.h
+	<vector>
+	"TmxPoint.h"
+
+1458145580 d:\cage2d\dependencies\tmxparser\include\tmxparser\tmxpolyline.h
+	<vector>
+	"TmxPoint.h"
+
+1423501798 d:\cage2d\dependencies\tmxparser\include\tmxparser\tmxutil.h
+	<string>
+
+1423501798 d:\cage2d\dependencies\tmxparser\include\tmxparser\tmximagelayer.h
+	<string>
+	<vector>
+	"TmxLayer.h"
+	"TmxPropertySet.h"
+
+1461297530 d:\cage2d\cage2d\include\cage2d\tiledmapimp.hxx
+
+1431049200 source:d:\cage2d\cage2d\src\servicelocator.cpp
+	"Cage2d/stdafx.h"
+	"Cage2d/ServiceLocator.hpp"
+
+1461297524 source:d:\cage2d\cage2d\src\soundfilecache.cpp
+	"Cage2d/stdafx.h"
+	"Cage2d/SoundFileCache.hpp"
+
+1461297524 source:d:\cage2d\cage2d\src\splashscreen.cpp
+	"Cage2d/stdafx.h"
+	"Cage2d/SplashScreen.hpp"
+
+1487975274 source:d:\cage2d\cage2d\src\sprite.cpp
+	"Cage2d/stdafx.h"
+	"Cage2d/Sprite.hpp"
+
+1461302771 source:d:\cage2d\cage2d\src\spritesheet.cpp
+	"Cage2d/stdafx.h"
+	"Cage2d/SpriteSheet.hpp"
+
+1461297525 source:d:\cage2d\cage2d\src\vec2.cpp
+	"Cage2d/stdafx.h"
+	"Cage2d/Vec2.hpp"
+
+1488050959 d:\cage2d\cage2d\include\cage2d\properties.hpp
+
+1487971487 d:\cage2d\cage2d\include\cage2d\keycodes.hpp
+

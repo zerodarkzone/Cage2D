@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Cage2d" />
+		<Option platforms="Windows;" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option platforms="Windows;" />
+				<Option output="bin/Debug/Cage2d-debug" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wredundant-decls" />
+					<Add option="-Wundef" />
+					<Add option="-Winline" />
+					<Add option="-Wunreachable-code" />
+					<Add option="-Wmissing-include-dirs" />
+					<Add option="-Wmain" />
+					<Add option="-pedantic-errors" />
+					<Add option="-pedantic" />
+					<Add option="-Wfatal-errors" />
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-std=c++14" />
+					<Add option="-m64" />
+					<Add option="-g" />
+					<Add option="-Winvalid-pch" />
+					<Add option="-DUSING_PCH" />
+					<Add option="-D_DEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-m64" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option platforms="Windows;" />
+				<Option output="bin/Release/Cage2d" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-march=corei7" />
+					<Add option="-O3" />
+					<Add option="-std=c++14" />
+					<Add option="-m64" />
+					<Add option="-Winvalid-pch" />
+					<Add option="-DUSING_PCH" />
+					<Add option="-DNDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-m64" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-Winvalid-pch" />
+			<Add option='-include &quot;stdafx.h&quot;' />
+			<Add option="-isystem ..\Dependencies\AllegroC++\include" />
+			<Add option="-isystem ..\Dependencies\Containers\co\edu\unal\list" />
+			<Add option="-isystem ..\Dependencies\Containers\co\edu\unal\queue" />
+			<Add directory="include" />
+			<Add directory="../Dependencies/Containers" />
+			<Add directory="../Dependencies/tmxparser/include" />
+			<Add directory="include/Cage2d" />
+			<Add directory="../Dependencies/tmxparser/include/tmxparser" />
+			<Add directory="../Dependencies/Smart_pointer" />
+			<Add directory="../Dependencies/ALLEGRO/include" />
+		</Compiler>
+		<Unit filename="Src/ALSoundProvider.cpp" />
+		<Unit filename="Src/AnimatedSprite.cpp" />
+		<Unit filename="Src/Animation.cpp" />
+		<Unit filename="Src/Application.cpp" />
+		<Unit filename="Src/BitmapFileCache.cpp" />
+		<Unit filename="Src/Body.cpp" />
+		<Unit filename="Src/Camera.cpp" />
+		<Unit filename="Src/CollisionManager.cpp" />
+		<Unit filename="Src/Entity.cpp" />
+		<Unit filename="Src/EntityManager.cpp" />
+		<Unit filename="Src/ExternInput.cpp" />
+		<Unit filename="Src/Game.cpp" />
+		<Unit filename="Src/Menu.cpp" />
+		<Unit filename="Src/MenuItem.cpp" />
+		<Unit filename="Src/Point.cpp" />
+		<Unit filename="Src/Scene.cpp" />
+		<Unit filename="Src/ServiceLocator.cpp" />
+		<Unit filename="Src/SoundFileCache.cpp" />
+		<Unit filename="Src/SplashScreen.cpp" />
+		<Unit filename="Src/Sprite.cpp" />
+		<Unit filename="Src/SpriteSheet.cpp" />
+		<Unit filename="Src/Vec2.cpp" />
+		<Unit filename="Src/stdafx.cpp">
+			<Option weight="2" />
+		</Unit>
+		<Unit filename="include/Cage2d.hpp" />
+		<Unit filename="include/Cage2d/ALSoundProvider.hpp" />
+		<Unit filename="include/Cage2d/AnimatedSprite.hpp" />
+		<Unit filename="include/Cage2d/Animation.hpp" />
+		<Unit filename="include/Cage2d/Application.hpp" />
+		<Unit filename="include/Cage2d/BitmapFileCache.hpp" />
+		<Unit filename="include/Cage2d/Body.hpp" />
+		<Unit filename="include/Cage2d/Camera.hpp" />
+		<Unit filename="include/Cage2d/CollisionManager.hpp" />
+		<Unit filename="include/Cage2d/Entity.hpp" />
+		<Unit filename="include/Cage2d/EntityManager.hpp" />
+		<Unit filename="include/Cage2d/ExternInput.hpp" />
+		<Unit filename="include/Cage2d/Game.hpp" />
+		<Unit filename="include/Cage2d/IAudioProvider.hpp" />
+		<Unit filename="include/Cage2d/ImageDraw.hpp" />
+		<Unit filename="include/Cage2d/Macros.hpp" />
+		<Unit filename="include/Cage2d/Menu.hpp" />
+		<Unit filename="include/Cage2d/MenuItem.hpp" />
+		<Unit filename="include/Cage2d/Point.hpp" />
+		<Unit filename="include/Cage2d/Property.hpp" />
+		<Unit filename="include/Cage2d/Scene.hpp" />
+		<Unit filename="include/Cage2d/ServiceLocator.hpp" />
+		<Unit filename="include/Cage2d/SoundFileCache.hpp" />
+		<Unit filename="include/Cage2d/SplashScreen.hpp" />
+		<Unit filename="include/Cage2d/Sprite.hpp" />
+		<Unit filename="include/Cage2d/SpriteSheet.hpp" />
+		<Unit filename="include/Cage2d/TiledMap.hpp" />
+		<Unit filename="include/Cage2d/TiledMapImp.hxx" />
+		<Unit filename="include/Cage2d/Vec2.hpp" />
+		<Unit filename="include/Cage2d/stdafx.h">
+			<Option compile="1" />
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="include/Cage2d/targetver.h" />
+		<Extensions>
+			<code_completion>
+				<search_path add="..\Cage2d" />
+				<search_path add="..\Dependencies\Containers\co\edu\unal\list" />
+				<search_path add="..\Dependencies\Smart_pointer" />
+				<search_path add="..\Dependencies\AllegroC++\include\alx" />
+				<search_path add="..\Dependencies\tmxparser\include" />
+				<search_path add="..\Dependencies\AllegroC++\include" />
+				<search_path add="include\Cage2d" />
+			</code_completion>
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
