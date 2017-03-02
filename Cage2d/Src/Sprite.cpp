@@ -110,20 +110,6 @@ namespace sp
 		_rect.setCenter( _x, _y );
 	}
 
-	void Sprite::setPosition( const Point& position )
-	{
-		_x = position.x;
-		_y = position.y;
-		_rect.setCenter( _x, _y );
-	}
-
-	void Sprite::setPosition( const Vec2& position )
-	{
-		_x = position.x;
-		_y = position.y;
-		_rect.setCenter( _x, _y );
-	}
-
 	void Sprite::setSize( double width, double height )
 	{
 		_width = width;
@@ -138,20 +124,6 @@ namespace sp
 		_rect.setSize( _width * _scaleX, _height * _scaleY );
 	}
 
-	void Sprite::setSize( const Point& size )
-	{
-		_width = size.x;
-		_height = size.y;
-		_rect.setSize( _width * _scaleX, _height * _scaleY );
-	}
-
-	void Sprite::setSize( const Vec2& size )
-	{
-		_width = size.x;
-		_height = size.y;
-		_rect.setSize( _width * _scaleX, _height * _scaleY );
-	}
-
 	void Sprite::setOrigin( double x, double y )
 	{
 		or_x = x;
@@ -162,17 +134,6 @@ namespace sp
 	{
 		or_x = origin.getX( );
 		or_y = origin.getY( );
-	}
-	void Sprite::setOrigin( const Point& origin )
-	{
-		or_x = origin.x;
-		or_y = origin.y;
-	}
-
-	void Sprite::setOrigin( const Vec2& origin )
-	{
-		or_x = origin.x;
-		or_y = origin.y;
 	}
 
 	void Sprite::setBitmap( const alx::Bitmap& image_ )
@@ -225,20 +186,6 @@ namespace sp
 	{
 		_x += dist.getX( );
 		_y += dist.getY( );
-		_rect.setCenter( _x, _y );
-	}
-
-	void Sprite::move( const Point& dist )
-	{
-		_x += dist.x;
-		_y += dist.y;
-		_rect.setCenter( _x, _y );
-	}
-
-	void Sprite::move( const Vec2& dist )
-	{
-		_x += dist.x;
-		_y += dist.y;
 		_rect.setCenter( _x, _y );
 	}
 

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1488050467 source:d:\cage2d\cage2d\include\cage2d\stdafx.h
+1488436095 source:d:\cage2d\cage2d\include\cage2d\stdafx.h
 	"targetver.h"
 	<cmath>
 	<iostream>
@@ -16,7 +16,6 @@
 	<condition_variable>
 	<atomic>
 	<alx.hpp>
-	"Vec2.hpp"
 	"Property.hpp"
 	"Properties.hpp"
 	"ImageDraw.hpp"
@@ -255,7 +254,7 @@
 	<istream>
 	<iostream>
 
-1487975221 d:\cage2d\cage2d\include\cage2d\sprite.hpp
+1488436224 d:\cage2d\cage2d\include\cage2d\sprite.hpp
 	<exception>
 
 1461039817 d:\cage2d\dependencies\containers\co\edu\unal\list\exception
@@ -396,7 +395,7 @@
 1461269844 source:d:\cage2d\cage2d\src\stdafx.cpp
 	"Cage2d/stdafx.h"
 
-1488050467 d:\cage2d\cage2d\include\cage2d\stdafx.h
+1488436095 d:\cage2d\cage2d\include\cage2d\stdafx.h
 	"targetver.h"
 	<cmath>
 	<iostream>
@@ -413,7 +412,6 @@
 	<condition_variable>
 	<atomic>
 	<alx.hpp>
-	"Vec2.hpp"
 	"Property.hpp"
 	"Properties.hpp"
 	"ImageDraw.hpp"
@@ -474,7 +472,7 @@
 	"Cage2d/Body.hpp"
 	"Cage2d/CollisionManager.hpp"
 
-1488355155 source:d:\cage2d\cage2d\src\entity.cpp
+1488428922 source:d:\cage2d\cage2d\src\entity.cpp
 	"Cage2d/stdafx.h"
 	"Cage2d/Entity.hpp"
 	"Cage2d/Camera.hpp"
@@ -643,7 +641,7 @@
 	"Cage2d/stdafx.h"
 	"Cage2d/SplashScreen.hpp"
 
-1487975274 source:d:\cage2d\cage2d\src\sprite.cpp
+1488436282 source:d:\cage2d\cage2d\src\sprite.cpp
 	"Cage2d/stdafx.h"
 	"Cage2d/Sprite.hpp"
 

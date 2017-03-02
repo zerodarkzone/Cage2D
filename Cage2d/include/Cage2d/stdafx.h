@@ -30,7 +30,6 @@
 #include <alx.hpp>
 //#include <EASTL/list.h>
 
-#include "Vec2.hpp"
 #include "Property.hpp"
 #include "Properties.hpp"
 #include "ImageDraw.hpp"

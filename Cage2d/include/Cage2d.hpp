@@ -40,8 +40,6 @@
 #include "Cage2d/Macros.hpp"
 #include "Cage2d/ServiceLocator.hpp"
 #include "Cage2d/ImageDraw.hpp"
-#include "Cage2d/Point.hpp"
-#include "Cage2d/Vec2.hpp"
 #include "Cage2d/Sprite.hpp"
 #include "Cage2d/AnimatedSprite.hpp"
 #include "Cage2d/SpriteSheet.hpp"

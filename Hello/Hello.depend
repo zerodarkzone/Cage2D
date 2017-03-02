@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1458087248 source:d:\cage2d\hello\classes\appdelegate.cpp
+1487982150 source:d:\cage2d\hello\classes\appdelegate.cpp
 	"AppDelegate.hpp"
 	"HelloScene.hpp"
 
 1433636290 d:\cage2d\hello\classes\appdelegate.hpp
 	"Cage2d.hpp"
 
-1461297525 d:\cage2d\cage2d\include\cage2d.hpp
+1488436449 d:\cage2d\cage2d\include\cage2d.hpp
 	<cmath>
 	<string>
 	<iostream>
@@ -24,12 +24,12 @@
 	<atomic>
 	<alx.hpp>
 	"co/edu/unal/list/JList.hpp"
+	"Cage2d/KeyCodes.hpp"
 	"Cage2d/Property.hpp"
+	"Cage2d/Properties.hpp"
 	"Cage2d/Macros.hpp"
 	"Cage2d/ServiceLocator.hpp"
 	"Cage2d/ImageDraw.hpp"
-	"Cage2d/Point.hpp"
-	"Cage2d/Vec2.hpp"
 	"Cage2d/Sprite.hpp"
 	"Cage2d/AnimatedSprite.hpp"
 	"Cage2d/SpriteSheet.hpp"
@@ -86,7 +86,7 @@
 	"Property.hpp"
 	"Point.hpp"
 
-1461297528 d:\cage2d\cage2d\include\cage2d\property.hpp
+1487978853 d:\cage2d\cage2d\include\cage2d\property.hpp
 	<functional>
 
 1461293841 d:\cage2d\cage2d\include\cage2d\point.hpp
@@ -95,14 +95,14 @@
 	<istream>
 	<iostream>
 
-1461293841 d:\cage2d\cage2d\include\cage2d\sprite.hpp
+1488436224 d:\cage2d\cage2d\include\cage2d\sprite.hpp
 	<exception>
 
-1461297525 d:\cage2d\cage2d\include\cage2d\animatedsprite.hpp
+1487975415 d:\cage2d\cage2d\include\cage2d\animatedsprite.hpp
 
 1461293841 d:\cage2d\cage2d\include\cage2d\spritesheet.hpp
 
-1461610064 d:\cage2d\cage2d\include\cage2d\macros.hpp
+1488052239 d:\cage2d\cage2d\include\cage2d\macros.hpp
 	"cntd_ptr.hpp"
 	"Game.hpp"
 	"BitmapFileCache.hpp"
@@ -112,7 +112,8 @@
 	<type_traits>
 	<cstdint>
 
-1461297527 d:\cage2d\cage2d\include\cage2d\game.hpp
+1488051696 d:\cage2d\cage2d\include\cage2d\game.hpp
+	"KeyCodes.hpp"
 	"ExternInput.hpp"
 
 1433049763 d:\cage2d\cage2d\include\cage2d\keyboardinput.hpp
@@ -211,20 +212,20 @@
 	"LinearList.hpp"
 	"ChainNode.h"
 
-1461423361 d:\cage2d\cage2d\include\cage2d\entity.hpp
+1487987895 d:\cage2d\cage2d\include\cage2d\entity.hpp
 	"Body.hpp"
 
-1461297526 d:\cage2d\cage2d\include\cage2d\body.hpp
+1487986022 d:\cage2d\cage2d\include\cage2d\body.hpp
 
 1461297525 d:\cage2d\cage2d\include\cage2d\animation.hpp
 	"SpriteSheet.hpp"
 
-1461297528 d:\cage2d\cage2d\include\cage2d\scene.hpp
+1488356966 d:\cage2d\cage2d\include\cage2d\scene.hpp
 
 1461293842 d:\cage2d\cage2d\include\cage2d\entitymanager.hpp
 	"Cage2d/Manager.hpp"
 
-1461293840 d:\cage2d\cage2d\include\cage2d\collisionmanager.hpp
+1472755362 d:\cage2d\cage2d\include\cage2d\collisionmanager.hpp
 	"Cage2d/Manager.hpp"
 	"co/edu/unal/list/JList.hpp"
 
@@ -359,7 +360,7 @@
 1433636290 d:\cage2d\hello\classes\\appdelegate.hpp
 	"Cage2d.hpp"
 
-1458087516 source:d:\cage2d\hello\classes\helloscene.cpp
+1488052322 source:d:\cage2d\hello\classes\helloscene.cpp
 	"HelloScene.hpp"
 
 1430251244 d:\cage2d\dependencies\mingw.thread.h
@@ -377,7 +378,7 @@
 	<assert.h>
 	<condition_variable>
 
-1461297527 d:\cage2d\cage2d\include\cage2d\externinput.hpp
+1487971360 d:\cage2d\cage2d\include\cage2d\externinput.hpp
 
 1455140740 d:\cage2d\dependencies\smart_pointer\cntd_ptr.hpp
 
@@ -928,4 +929,8 @@
 1460432259 d:\cage2d\dependencies\eastl\include\eastl\random.h
 	<EASTL/internal/config.h>
 	<EASTL/numeric_limits.h>
+
+1487971487 d:\cage2d\cage2d\include\cage2d\keycodes.hpp
+
+1488050959 d:\cage2d\cage2d\include\cage2d\properties.hpp
 

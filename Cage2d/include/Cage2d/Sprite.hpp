@@ -28,16 +28,10 @@ namespace sp
 
 		void setPosition( double x, double y );
 		void setPosition( const alx::Point<double>& position );
-		void setPosition( const Cage2d::Point& position );
-		void setPosition( const Cage2d::Vec2& position );
 		void setSize( double width, double heigth );
 		void setSize( const alx::Size<double>& size );
-		void setSize( const Cage2d::Point& size );
-		void setSize( const Cage2d::Vec2& size );
 		void setOrigin( double x, double y );
 		void setOrigin( alx::Point<double>& origin );
-		void setOrigin( const Cage2d::Point& origin );
-		void setOrigin( const Cage2d::Vec2& origin );
 		void setBitmap( const alx::Bitmap& image );
 		void setBitmap( const std::string& filename );
 		void setAngle( double angle );
@@ -46,8 +40,6 @@ namespace sp
 
 		void move( double dx, double dy );
 		void move( const alx::Point<double>& dist );
-		void move( const Cage2d::Point& dist );
-		void move( const Cage2d::Vec2& dist );
 
 		virtual void draw( int flags = 0 ) const;
 		virtual void update( );

@@ -87,14 +87,12 @@
 		<Unit filename="Src/Game.cpp" />
 		<Unit filename="Src/Menu.cpp" />
 		<Unit filename="Src/MenuItem.cpp" />
-		<Unit filename="Src/Point.cpp" />
 		<Unit filename="Src/Scene.cpp" />
 		<Unit filename="Src/ServiceLocator.cpp" />
 		<Unit filename="Src/SoundFileCache.cpp" />
 		<Unit filename="Src/SplashScreen.cpp" />
 		<Unit filename="Src/Sprite.cpp" />
 		<Unit filename="Src/SpriteSheet.cpp" />
-		<Unit filename="Src/Vec2.cpp" />
 		<Unit filename="Src/stdafx.cpp">
 			<Option weight="2" />
 		</Unit>
@@ -116,7 +114,6 @@
 		<Unit filename="include/Cage2d/Macros.hpp" />
 		<Unit filename="include/Cage2d/Menu.hpp" />
 		<Unit filename="include/Cage2d/MenuItem.hpp" />
-		<Unit filename="include/Cage2d/Point.hpp" />
 		<Unit filename="include/Cage2d/Property.hpp" />
 		<Unit filename="include/Cage2d/Scene.hpp" />
 		<Unit filename="include/Cage2d/ServiceLocator.hpp" />
@@ -126,7 +123,6 @@
 		<Unit filename="include/Cage2d/SpriteSheet.hpp" />
 		<Unit filename="include/Cage2d/TiledMap.hpp" />
 		<Unit filename="include/Cage2d/TiledMapImp.hxx" />
-		<Unit filename="include/Cage2d/Vec2.hpp" />
 		<Unit filename="include/Cage2d/stdafx.h">
 			<Option compile="1" />
 			<Option weight="0" />
